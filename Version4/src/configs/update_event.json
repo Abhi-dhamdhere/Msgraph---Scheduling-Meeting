@@ -1,0 +1,28 @@
+{
+    "id": "event12345",  // Replace with the actual event ID
+    "subject": "Updated Team Meeting",
+    "start": {
+        "dateTime": "2025-01-06T10:30:00",
+        "timeZone": "UTC"
+    },
+    "end": {
+        "dateTime": "2025-01-06T11:30:00",
+        "timeZone": "UTC"
+    },
+    "location": {
+        "displayName": "Conference Room B"
+    },
+    "attendees": [
+        {
+            "emailAddress": {
+                "address": "updated_attendee@example.com"
+            },
+            "type": "optional"
+        }
+    ],
+    "priority": "High",
+    "body": {
+        "contentType": "HTML",
+        "content": "Updated agenda: Focus on deliverables."
+    }
+}
