@@ -1,0 +1,10 @@
+2025-01-12 23:34:31,057 - INFO - Fetching calendar events...
+2025-01-12 23:34:31,057 - INFO - Fetching calendar events...
+2025-01-12 23:34:31,058 - ERROR - An error occurred: 1 validation error for FetchEventsInput
+auth_mode
+  Input should be 'app' or 'me' [type=literal_error, input_value='Bearer', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+2025-01-12 23:34:31,058 - ERROR - An error occurred: 1 validation error for FetchEventsInput
+auth_mode
+  Input should be 'app' or 'me' [type=literal_error, input_value='Bearer', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error

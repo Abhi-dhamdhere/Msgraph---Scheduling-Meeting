@@ -1,0 +1,27 @@
+2025-01-13 00:21:04,084 - INFO - Fetching calendar events...
+2025-01-13 00:21:04,084 - INFO - Fetching calendar events...
+2025-01-13 00:21:04,084 - INFO - Fetching calendar events...
+2025-01-13 00:21:04,086 - DEBUG - Validating dates for event filtering...
+2025-01-13 00:21:04,086 - DEBUG - Validating dates for event filtering...
+2025-01-13 00:21:04,086 - DEBUG - Validating dates for event filtering...
+2025-01-13 00:21:04,086 - DEBUG - Validated dates: start_date=None, end_date=None
+2025-01-13 00:21:04,086 - DEBUG - Validated dates: start_date=None, end_date=None
+2025-01-13 00:21:04,086 - DEBUG - Validated dates: start_date=None, end_date=None
+2025-01-13 00:21:04,086 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 00:21:04,086 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 00:21:04,086 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 00:21:04,087 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50'}
+2025-01-13 00:21:04,087 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50'}
+2025-01-13 00:21:04,087 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50'}
+2025-01-13 00:21:04,384 - INFO - Successfully fetched events.
+2025-01-13 00:21:04,384 - INFO - Successfully fetched events.
+2025-01-13 00:21:04,384 - INFO - Successfully fetched events.
+2025-01-13 00:21:04,386 - INFO - Found 15 events.
+2025-01-13 00:21:04,386 - INFO - Found 15 events.
+2025-01-13 00:21:04,386 - INFO - Found 15 events.
+2025-01-13 00:21:05,200 - INFO - Successfully scheduled the meeting.
+2025-01-13 00:21:05,200 - INFO - Successfully scheduled the meeting.
+2025-01-13 00:21:05,200 - INFO - Successfully scheduled the meeting.
+2025-01-13 00:21:05,203 - INFO - Meeting scheduled: AAMkADFlNDI3ZjFiLWRjODktNGY4OS05M2I4LWEzMWJlZTg4MTczNgBGAAAAAACiBko5nvE1TJgmNsnFk3xRBwD0NyRXjYGWS5J17R6mruzqAAAAAAENAAD0NyRXjYGWS5J17R6mruzqAAALLN0HAAA=
+2025-01-13 00:21:05,203 - INFO - Meeting scheduled: AAMkADFlNDI3ZjFiLWRjODktNGY4OS05M2I4LWEzMWJlZTg4MTczNgBGAAAAAACiBko5nvE1TJgmNsnFk3xRBwD0NyRXjYGWS5J17R6mruzqAAAAAAENAAD0NyRXjYGWS5J17R6mruzqAAALLN0HAAA=
+2025-01-13 00:21:05,203 - INFO - Meeting scheduled: AAMkADFlNDI3ZjFiLWRjODktNGY4OS05M2I4LWEzMWJlZTg4MTczNgBGAAAAAACiBko5nvE1TJgmNsnFk3xRBwD0NyRXjYGWS5J17R6mruzqAAAAAAENAAD0NyRXjYGWS5J17R6mruzqAAALLN0HAAA=

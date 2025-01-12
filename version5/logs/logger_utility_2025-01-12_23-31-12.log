@@ -1,0 +1,10 @@
+2025-01-12 23:31:12,765 - INFO - Fetching calendar events...
+2025-01-12 23:31:12,765 - INFO - Fetching calendar events...
+2025-01-12 23:31:12,766 - ERROR - An error occurred: 1 validation error for FetchEventsInput
+auth_mode
+  Field required [type=missing, input_value={'access_token': 'eyJ0eXA...Sr9R5zg2omdJD7InLp_MJw'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-01-12 23:31:12,766 - ERROR - An error occurred: 1 validation error for FetchEventsInput
+auth_mode
+  Field required [type=missing, input_value={'access_token': 'eyJ0eXA...Sr9R5zg2omdJD7InLp_MJw'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing

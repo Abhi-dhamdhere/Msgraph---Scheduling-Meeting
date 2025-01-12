@@ -1,0 +1,44 @@
+{
+    "attendees": [
+      {
+        "emailAddress": {
+          "address": "user1@example.com",
+          "name": "User One"
+        },
+        "type": "Required"
+      },
+      {
+        "emailAddress": {
+          "address": "user2@example.com",
+          "name": "User Two"
+        },
+        "type": "Required"
+      }
+    ],
+    "timeConstraint": {
+      "timeslots": [
+        {
+          "start": {
+            "dateTime": "2025-01-12T20:13:12.440Z",
+            "timeZone": "Pacific Standard Time"
+          },
+          "end": {
+            "dateTime": "2025-01-19T20:13:12.440Z",
+            "timeZone": "Pacific Standard Time"
+          }
+        }
+      ]
+    },
+    "locationConstraint": {
+      "isRequired": "false",
+      "suggestLocation": "true",
+      "locations": [
+        {
+          "displayName": "Conf Room 32/1368",
+          "locationEmailAddress": "conf32room1368@imgeek.onmicrosoft.com"
+        }
+      ]
+    },
+    "meetingDuration": "PT1H"
+  }
+  

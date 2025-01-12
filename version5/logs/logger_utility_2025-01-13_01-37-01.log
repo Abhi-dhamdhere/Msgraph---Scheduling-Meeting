@@ -1,0 +1,1 @@
+2025-01-13 01:37:01,716 - ERROR - Failed to delete event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}

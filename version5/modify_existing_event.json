@@ -1,0 +1,23 @@
+{
+    "subject": "Updated Event Subject",
+    "start": {
+        "dateTime": "2025-01-15T14:00:00",
+        "timeZone": "UTC"
+    },
+    "end": {
+        "dateTime": "2025-01-15T15:00:00",
+        "timeZone": "UTC"
+    },
+    "attendees": [
+        {
+            "emailAddress": {
+                "address": "attendee@example.com"
+            },
+            "type": "required"
+        }
+    ],
+    "body": {
+        "contentType": "HTML",
+        "content": "Updated event details"
+    }
+}

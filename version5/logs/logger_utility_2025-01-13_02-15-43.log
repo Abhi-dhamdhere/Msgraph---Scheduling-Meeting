@@ -1,0 +1,42 @@
+2025-01-13 02:15:43,512 - ERROR - Failed to delete event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 02:15:43,512 - ERROR - Failed to delete event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 02:15:43,512 - ERROR - Failed to delete event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 02:15:43,675 - ERROR - Failed to cancel event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 02:15:43,675 - ERROR - Failed to cancel event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 02:15:43,675 - ERROR - Failed to cancel event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 02:15:43,675 - ERROR - Failed to cancel event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 02:15:43,682 - DEBUG - Validating dates for event filtering...
+2025-01-13 02:15:43,682 - DEBUG - Validating dates for event filtering...
+2025-01-13 02:15:43,682 - DEBUG - Validating dates for event filtering...
+2025-01-13 02:15:43,682 - DEBUG - Validating dates for event filtering...
+2025-01-13 02:15:43,682 - DEBUG - Validating dates for event filtering...
+2025-01-13 02:15:43,682 - DEBUG - Validated dates: start_date=2025-01-15T10:00:00Z, end_date=2025-01-15T11:00:00Z
+2025-01-13 02:15:43,682 - DEBUG - Validated dates: start_date=2025-01-15T10:00:00Z, end_date=2025-01-15T11:00:00Z
+2025-01-13 02:15:43,682 - DEBUG - Validated dates: start_date=2025-01-15T10:00:00Z, end_date=2025-01-15T11:00:00Z
+2025-01-13 02:15:43,682 - DEBUG - Validated dates: start_date=2025-01-15T10:00:00Z, end_date=2025-01-15T11:00:00Z
+2025-01-13 02:15:43,682 - DEBUG - Validated dates: start_date=2025-01-15T10:00:00Z, end_date=2025-01-15T11:00:00Z
+2025-01-13 02:15:43,683 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 02:15:43,683 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 02:15:43,683 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 02:15:43,683 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 02:15:43,683 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 02:15:43,683 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50', '$filter': "start/dateTime ge '2025-01-15T10:00:00Z' and end/dateTime le '2025-01-15T11:00:00Z'"}
+2025-01-13 02:15:43,683 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50', '$filter': "start/dateTime ge '2025-01-15T10:00:00Z' and end/dateTime le '2025-01-15T11:00:00Z'"}
+2025-01-13 02:15:43,683 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50', '$filter': "start/dateTime ge '2025-01-15T10:00:00Z' and end/dateTime le '2025-01-15T11:00:00Z'"}
+2025-01-13 02:15:43,683 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50', '$filter': "start/dateTime ge '2025-01-15T10:00:00Z' and end/dateTime le '2025-01-15T11:00:00Z'"}
+2025-01-13 02:15:43,683 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50', '$filter': "start/dateTime ge '2025-01-15T10:00:00Z' and end/dateTime le '2025-01-15T11:00:00Z'"}
+2025-01-13 02:15:43,851 - INFO - Successfully fetched events.
+2025-01-13 02:15:43,851 - INFO - Successfully fetched events.
+2025-01-13 02:15:43,851 - INFO - Successfully fetched events.
+2025-01-13 02:15:43,851 - INFO - Successfully fetched events.
+2025-01-13 02:15:43,851 - INFO - Successfully fetched events.
+2025-01-13 02:15:43,855 - INFO - Found 2 events during the proposed time frame.
+2025-01-13 02:15:43,855 - INFO - Found 2 events during the proposed time frame.
+2025-01-13 02:15:43,855 - INFO - Found 2 events during the proposed time frame.
+2025-01-13 02:15:43,855 - INFO - Found 2 events during the proposed time frame.
+2025-01-13 02:15:43,855 - INFO - Found 2 events during the proposed time frame.
+2025-01-13 02:15:43,856 - ERROR - Unable to schedule meeting due to overlap with existing events.
+2025-01-13 02:15:43,856 - ERROR - Unable to schedule meeting due to overlap with existing events.
+2025-01-13 02:15:43,856 - ERROR - Unable to schedule meeting due to overlap with existing events.
+2025-01-13 02:15:43,856 - ERROR - Unable to schedule meeting due to overlap with existing events.
+2025-01-13 02:15:43,856 - ERROR - Unable to schedule meeting due to overlap with existing events.

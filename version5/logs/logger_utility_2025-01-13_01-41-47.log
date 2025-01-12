@@ -1,0 +1,9 @@
+2025-01-13 01:41:48,233 - ERROR - Failed to delete event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 01:41:48,421 - ERROR - Failed to cancel event event_id_here: {'error': {'code': 'ErrorInvalidIdMalformed', 'message': 'Id is malformed.'}}
+2025-01-13 01:41:48,426 - DEBUG - Validating dates for event filtering...
+2025-01-13 01:41:48,426 - DEBUG - Validated dates: start_date=2025-01-15T10:00:00Z, end_date=2025-01-15T11:00:00Z
+2025-01-13 01:41:48,426 - DEBUG - Fetching events with auth_mode: me and filters.
+2025-01-13 01:41:48,427 - DEBUG - Making GET request to URL: https://graph.microsoft.com/v1.0/me/events with params: {'$select': 'id,subject,start,end,isOnlineMeeting,attendees,organizer,onlineMeeting', '$top': '50', '$filter': "start/dateTime ge '2025-01-15T10:00:00Z' and end/dateTime le '2025-01-15T11:00:00Z'"}
+2025-01-13 01:41:48,652 - INFO - Successfully fetched events.
+2025-01-13 01:41:48,654 - INFO - Found 2 events during the proposed time frame.
+2025-01-13 01:41:48,655 - ERROR - Unable to schedule meeting due to overlap with existing events.
